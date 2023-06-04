@@ -1,0 +1,11 @@
+key="general"
+key="business"
+key="entertainment"
+key="health"
+key="science"
+key="sports"
+key="technology"
+
+
+<Route path="/" ><News pageSize={5} category="science"/></Route> 
+element={<News category="general" />}
